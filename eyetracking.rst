@@ -19,7 +19,7 @@ Getting Started
 ---------------
 
 * The only OS recommended is Ubuntu Linux, it would be possible (though not easy because of opencv's lacking camera support on osx) to get it working on OSX and if you only have Windows consider using an Ubuntu virtual machine.
-* Install the dependencies: gevent, wearscript-python, numpy, opencv (need a recent version! if you have a brand ubuntu 13.10+ you can use apt-get, else build from source).
+* Install the dependencies: gevent, wearscript, numpy, opencv (need a recent version! if you have a brand ubuntu 13.10+ you can use apt-get, else build from source).
 * Acquire/build an eye tracker (best to contact brandyn in IRC)
 * Run python track_debug.py debug, that will show you the eye camera and it should show a ring around your pupil
 * We have several things you can do with it after this, but we are tidying things up (more info will be posted here after)
