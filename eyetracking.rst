@@ -1,7 +1,7 @@
 Eye Tracking
 ============
 
-We developed a custom eye tracker for Glass so that we can experiment with using it as an input device.  It is for research and development purposes, there is a lot of potential for this sub-project but it is still early so bare with us.  See the video below for details of this project.  Code is available at https://github.com/wearscript/wearscript-eyetracking
+We have developed a custom eye tracker for Glass so that we can experiment with using it as an input device.  It is for research and development purposes.  There is a lot of potential for this sub-project but it is still early so bear with us.  See the video below for details of this project.  Code is available at https://github.com/wearscript/wearscript-eyetracking
 
 .. raw:: html
 
@@ -18,10 +18,10 @@ https://github.com/wearscript/wearscript-eyetracking/blob/master/hardware/eye_tr
 Getting Started
 ---------------
 
-* The only OS recommended is Ubuntu Linux, it would be possible (though not easy because of opencv's lacking camera support on osx) to get it working on OSX and if you only have Windows consider using an Ubuntu virtual machine.
+* The only recommended operating system is Ubuntu Linux. It would be possible (though not easy because of opencv's lacking camera support on osx) to get it working on OSX and if you only have Windows consider using an Ubuntu virtual machine.
 * Install the dependencies: gevent, wearscript-python, numpy, opencv (need a recent version! if you have a brand ubuntu 13.10+ you can use apt-get, else build from source).
 * Acquire/build an eye tracker (best to contact brandyn in IRC)
-* Run python track_debug.py debug, that will show you the eye camera and it should show a ring around your pupil
+* Run ``python track_debug.py debug``, that will show you the eye camera and it should show a ring around your pupil
 * We have several things you can do with it after this, but we are tidying things up (more info will be posted here after)
 
 
